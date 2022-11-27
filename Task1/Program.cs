@@ -1,4 +1,4 @@
-﻿int ReadInt(string message)//метод пользовательского ввода строки
+﻿int ReadInt(string message)
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
